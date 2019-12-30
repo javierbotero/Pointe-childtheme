@@ -1,0 +1,169 @@
+/*
+ Theme Name:   twenty twenty Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Javier Botero
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+/* header of articles */
+
+[id^="post"] {
+  background:
+    linear-gradient(
+      to bottom,
+      white,
+      aliceblue,
+      white);
+  min-height: 100vh;
+}
+
+/* end header of articles */
+
+body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
+  background-position: center;
+  background-size: cover;
+}
+
+/* .page-id-7 .entry-header {
+  margin: 145px;
+}
+
+.page-id-7 .post-inner {
+  padding-top: 15em;
+} */
+
+/* style of the menu */
+
+#menu-item-18 {
+  font: 27px 'Great Vibes', cursive;
+  position: relative;
+  bottom: 6px;
+}
+
+#site-header {
+  position: absolute;
+  top: 10%;
+  width: -webkit-fill-available;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(255, 255, 255, 0.9) 40%,
+      rgba(255, 255, 255, 0.9) 60%,
+      transparent);
+}
+
+.header-navigation-wrapper {
+  position: relative;
+  left: -10%;
+}
+@media screen and (max-width: 600px) {
+  .header-titles {
+    position: relative;
+    left: -10%;
+    top: 641%;
+    z-index: 1;
+  }
+}
+
+div.header-inner.section-inner {
+  display: flex;
+  justify-content: center;
+}
+
+div.header-titles-wrapper {
+  position: relative;
+  top: 100px;
+  left: -10%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  div.header-titles-wrapper .header-titles {
+    top: 0;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 782px) {
+  div.header-titles-wrapper .header-titles {
+    position: relative;
+    top: -18%;
+    left: -10%;
+  }
+}
+
+button.toggle.nav-toggle.mobile-nav-toggle {
+  position: relative;
+  top: -186%;
+}
+
+@media screen and (min-width: 700px) {
+  button.toggle.nav-toggle.mobile-nav-toggle {
+    position: relative;
+    top: -125%;
+  }
+}
+
+/* end style of the menu */
+
+/* Layout of the Home page */
+
+#site-content {
+  overflow: scroll;
+  border-top: 280px solid black;
+}
+
+.page-id-7 #site-content {
+  overflow: scroll;
+}
+
+.post-7 .post-inner {
+  background-color: aliceblue;
+  position: relative;
+  top: 100vh;
+  padding: 250px 0;
+  z-index: 1;
+}
+
+.post-7 {
+  background: linear-gradient(to bottom, black, rgba(10, 10, 10, 0.2) 300px, black);
+  height: 100vh;
+}
+
+/* Layout of the Home page */
+
+/* footer layout and style */
+
+footer#site-footer.header-footer-group {
+  background-color: black;
+  margin: 0;
+  color: grey;
+}
+
+.powered-by-wordpress {
+  color: aliceblue;
+}
+
+/* end footer layout and style */
+
+/* removing extra spaces in the home page */
+
+.page-id-7 header.entry-header.has-text-align-center.header-footer-group {
+  display: none;
+}
+
+.page-id-7 div.post-meta-wrapper.post-meta-edit-link-wrapper {
+  display: none;
+}
+
+/* removing extra spaces in the home page */

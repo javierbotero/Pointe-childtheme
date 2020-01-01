@@ -11,3 +11,37 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+// inject html slider to the landing page
+
+/*
+function addsliderPointe () {
+
+  if (is_page(7)) {
+    ?>
+    <div class='slider'>
+      <div class="slider-item">
+        <img src="http://localhost/Pointe/pointe1/wp-content/uploads/2019/12/Fotoportada-scaled.jpg" alt="picture-dancer">
+      </div>
+      <div class="slider-item">
+        <video id=videoPointe>
+          <source src= "http://localhost/Pointe/pointe1/wp-content/uploads/2019/12/PuntasExtasisVeroSinAudio.mp4" type="video/mp4">
+        </video>
+      </div>
+    <?php
+  }
+
+}
+
+add_action("wp_body_open","addsliderPointe");
+
+// link the js file script for the slider
+
+function addScript () {
+  wp_enqueue_script(
+    'sliderScript',
+    get_stylesheet_directory_uri().'/js/sliderScript.js'
+    );
+}
+
+add_action ('wp_footer', addScript);

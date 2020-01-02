@@ -13,40 +13,40 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+@font-face {
+  font-family: 'Savoye LET Plain';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Savoye LET Plain'), url('Savoye LET Plain1.0.woff') format('woff');
+  }
 /* header of articles */
 
 [id^="post"] {
-  background:
-    linear-gradient(
-      to bottom,
-      white,
-      aliceblue,
-      white);
+  background: white;
   min-height: 100vh;
 }
 
 /* end header of articles */
 
 body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
-  background-position: center;
+  background-position: -14px 253px;
   background-size: cover;
 }
 
-/* .page-id-7 .entry-header {
-  margin: 145px;
+.entry-content p {
+  font: 16.5px/1.7 helvetica, 'Gothic A1', sans-serif;
 }
-
-.page-id-7 .post-inner {
-  padding-top: 15em;
-} */
 
 /* style of the menu */
 
+body .primary-menu li:not(#menu-item-18) a {
+  font: 18px/1.7 helvetica, 'Gothic A1', sans-serif;
+  color: white;
+}
+
 #menu-item-18 {
-  font: 27px 'Great Vibes', cursive;
-  position: relative;
-  bottom: 6px;
+  font: 27px 'Savoye LET Plain', /*'Great Vibes'*/ cursive;
 }
 
 #site-header {
@@ -54,12 +54,12 @@ body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.
   top: 10%;
   width: -webkit-fill-available;
   background:
-    linear-gradient(
-      to bottom,
-      transparent,
-      rgba(255, 255, 255, 0.9) 40%,
-      rgba(255, 255, 255, 0.9) 60%,
-      transparent);
+   linear-gradient( 
+     to bottom, 
+     transparent, 
+     rgba(10, 10, 10, 0.9) 47%, 
+     rgba(10, 10, 10, 0.9) 56%, 
+     transparent);
 }
 
 .header-navigation-wrapper {
@@ -120,7 +120,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 
 #site-content {
   overflow: scroll;
-  border-top: 330px solid black;
+  border-top: 330px solid white;
 }
 
 .page-id-7 #site-content {
@@ -128,7 +128,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 }
 
 .post-7 .post-inner {
-  background-color: aliceblue;
+  background-color: white;
   position: relative;
   top: 100vh;
   padding: 250px 0;
@@ -136,7 +136,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 }
 
 .post-7 {
-  background: linear-gradient(to bottom, black, rgba(10, 10, 10, 0.2) 300px, black);
+  background: linear-gradient(to bottom, white, transparent 4%, transparent 43%, white);
   height: 100vh;
 }
 
@@ -145,7 +145,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 /* footer layout and style */
 
 footer#site-footer.header-footer-group {
-  background-color: black;
+  background-color: white;
   margin: 0;
   color: grey;
 }
@@ -167,3 +167,11 @@ footer#site-footer.header-footer-group {
 }
 
 /* removing extra spaces in the home page */
+
+/* whatsapp logo style in contact page */
+
+i.fa {
+  font-size: 44px;
+  color: green;
+  margin-right: 8px;
+}

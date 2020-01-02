@@ -12,6 +12,15 @@ function my_theme_enqueue_styles() {
     );
 }
 
+//Inject the awesome fonts in the head section
+
+function awesomeImport () {
+  ?>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <?php
+}
+add_action("wp_head", "awesomeImport");
+
 // inject html slider to the landing page
 
 /*
@@ -34,8 +43,11 @@ function addsliderPointe () {
 }
 
 add_action("wp_body_open","addsliderPointe");
+*/
 
 // link the js file script for the slider
+
+/*
 
 function addScript () {
   wp_enqueue_script(

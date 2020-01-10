@@ -29,10 +29,21 @@
 
 /* end header of articles */
 
+/* Background image placed in the body  */
+
 body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
   background-position: -14px 253px;
   background-size: cover;
 }
+
+@media screen and (max-width: 800px) {
+  body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
+    background-position: -58px -59px;
+    background-attachment: scroll;
+  }
+}
+
+/* End background image placed in the body  */
 
 .entry-content p {
   font: 16.5px/1.7 helvetica, 'Gothic A1', sans-serif;
@@ -113,6 +124,10 @@ button.toggle.nav-toggle.mobile-nav-toggle {
     top: -125%;
   }
 }
+
+.svg-icon, .toggle-inner span.toggle-text {
+  color: rgb(220, 220, 220);
+} 
 
 /* end style of the menu */
 

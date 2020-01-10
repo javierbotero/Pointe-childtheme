@@ -32,7 +32,7 @@
 /* Background image placed in the body  */
 
 body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
-  background-position: -14px 253px;
+  background-position: -14px 155px;
   background-size: cover;
 }
 
@@ -125,7 +125,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
   }
 }
 
-.svg-icon, .toggle-inner span.toggle-text {
+.svg-icon, #MenuColor {
   color: rgb(220, 220, 220);
 } 
 
@@ -189,4 +189,10 @@ i.fa {
   font-size: 44px;
   color: green;
   margin-right: 8px;
+}
+
+/* End whatsapp logo style in contact page */
+
+.entry-title {
+  font: 40px helvetica, 'Gothic A1', sans-serif;
 }

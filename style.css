@@ -32,13 +32,13 @@
 
 /* Background image placed in the body  */
 
-body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
+body.home.page-template-default.page.page-id-7 {
   background-position: -14px 155px;
   background-size: cover;
 }
 
 @media screen and (max-width: 800px) {
-  body.home.page-template-default.page.page-id-7.custom-background.wp-custom-logo.singular.missing-post-thumbnail.has-no-pagination.not-showing-comments.show-avatars.footer-top-hidden {
+  body.home.page-template-default.page.page-id-7 {
     background-position: -58px -59px;
     background-attachment: scroll;
   }

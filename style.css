@@ -33,7 +33,7 @@
 /* Background image placed in the body  */
 
 body.home.page-template-default.page.page-id-7 {
-  background-position: -14px 155px;
+  background-position: -14px 140px;
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@ body .primary-menu li:not(#menu-item-18) a {
   
   .home .header-navigation-wrapper {
     position: relative;
-    left: -17%;
+    left: -13%;
     bottom: 30px;
   }
 

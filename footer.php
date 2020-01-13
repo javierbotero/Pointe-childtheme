@@ -30,7 +30,7 @@
 
 						<p class="powered-by-wordpress">
 							<a href="<?php echo esc_url( __( 'https://photographyandproductions.com', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Desarrollado por Javier Botero', 'twentytwenty' ); ?>
+								<?php _e( 'Desarrollado por Photography & Productions', 'twentytwenty' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
 

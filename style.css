@@ -14,6 +14,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
 @font-face {
   font-family: 'Savoye LET Plain';
   font-style: normal;
@@ -77,6 +78,25 @@ body .primary-menu li:not(#menu-item-18) a {
   position: relative;
   left: -10%;
 }
+
+@media screen and (min-width: 900px) {
+
+  .home #site-header {
+    height: 128px;
+  }
+  
+  .home .header-navigation-wrapper {
+    position: relative;
+    left: -17%;
+    bottom: 30px;
+  }
+
+  .home img.custom-logo {
+    max-height: 13rem;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   .header-titles {
     position: relative;
@@ -109,19 +129,21 @@ div.header-titles-wrapper {
   div.header-titles-wrapper .header-titles {
     position: relative;
     top: -18%;
-    left: -10%;
+    left: -2%;
   }
 }
 
 button.toggle.nav-toggle.mobile-nav-toggle {
   position: relative;
   top: -186%;
+  left: -9%;
 }
 
 @media screen and (min-width: 700px) {
   button.toggle.nav-toggle.mobile-nav-toggle {
     position: relative;
-    top: -125%;
+    top: -111%;
+    left: -18%;
   }
 }
 
@@ -136,6 +158,18 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 #site-content {
   overflow: scroll;
   border-top: 330px solid white;
+}
+
+@media screen and (max-width:900px) {
+  #site-content{
+    border-top: 317px solid white;
+  } 
+}
+
+@media screen and (max-width:500px) {
+  #site-content{
+    border-top: 264px solid white;
+  } 
 }
 
 .page-id-7 #site-content {
@@ -160,7 +194,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 /* footer layout and style */
 
 footer#site-footer.header-footer-group {
-  background-color: white;
+  background-color: black;
   margin: 0;
   color: grey;
 }
@@ -195,4 +229,26 @@ i.fa {
 
 .entry-title {
   font: 40px helvetica, 'Gothic A1', sans-serif;
+}
+
+/* posts remove date author */
+
+.post-meta {
+  visibility: hidden;
+}
+
+.archive-title {
+  display: none;
+}
+
+.archive-header {
+  display: none;
+}
+
+/* End posts remove date author */
+
+/* sign in blog */
+
+#veronicaSing {
+  font: 28px 'Rochester', cursive;
 }

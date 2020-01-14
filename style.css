@@ -61,16 +61,20 @@ body .primary-menu li:not(#menu-item-18) a {
   font: 27px 'Savoye LET Plain', /*'Great Vibes'*/ cursive;
 }
 
+#menu-item-18 a {
+  color: red;
+}
+
 #site-header {
   position: absolute;
   top: 10%;
   width: -webkit-fill-available;
   background:
-   linear-gradient( 
-     to bottom, 
-     transparent, 
-     rgba(10, 10, 10, 0.9) 47%, 
-     rgba(10, 10, 10, 0.9) 56%, 
+   linear-gradient(
+     to bottom,
+     transparent,
+     rgba(10, 10, 10, 0.9) 47%,
+     rgba(10, 10, 10, 0.9) 56%,
      transparent);
 }
 
@@ -84,7 +88,7 @@ body .primary-menu li:not(#menu-item-18) a {
   .home #site-header {
     height: 128px;
   }
-  
+
   .home .header-navigation-wrapper {
     position: relative;
     left: -13%;
@@ -149,7 +153,7 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 
 .svg-icon, #MenuColor {
   color: rgb(220, 220, 220);
-} 
+}
 
 /* end style of the menu */
 
@@ -163,13 +167,13 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 @media screen and (max-width:900px) {
   #site-content{
     border-top: 317px solid white;
-  } 
+  }
 }
 
 @media screen and (max-width:500px) {
   #site-content{
     border-top: 264px solid white;
-  } 
+  }
 }
 
 .page-id-7 #site-content {
@@ -249,6 +253,12 @@ i.fa {
 
 /* sign in blog */
 
-#veronicaSing {
-  font: 28px 'Rochester', cursive;
+/* #veronicaSing {
+  font: 28px 'Savoye LET Plain', cursive, helvetica;
+} */
+
+/* Blog in the page being red */
+
+.page-id-9 .entry-title {
+  color: red !important;
 }

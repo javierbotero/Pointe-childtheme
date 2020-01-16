@@ -83,24 +83,6 @@ body .primary-menu li:not(#menu-item-18) a {
   left: -10%;
 }
 
-@media screen and (min-width: 900px) {
-
-  .home #site-header {
-    height: 128px;
-  }
-
-  .home .header-navigation-wrapper {
-    position: relative;
-    left: -13%;
-    bottom: 30px;
-  }
-
-  .home img.custom-logo {
-    max-height: 13rem;
-  }
-
-}
-
 @media screen and (max-width: 600px) {
   .header-titles {
     position: relative;
@@ -129,12 +111,30 @@ div.header-titles-wrapper {
   }
 }
 
-@media screen and (min-width: 782px) {
+/* @media screen and (min-width: 782px) {
   div.header-titles-wrapper .header-titles {
     position: relative;
-    top: -18%;
+    top: -7%;
     left: -2%;
   }
+} */
+
+@media screen and (min-width: 900px) {
+
+  .home #site-header {
+    height: 128px;
+  }
+
+  .home .header-navigation-wrapper {
+    position: relative;
+    left: -13%;
+    bottom: 30px;
+  }
+
+  .home img.custom-logo {
+    max-height: 13rem;
+  }
+
 }
 
 button.toggle.nav-toggle.mobile-nav-toggle {
@@ -143,13 +143,13 @@ button.toggle.nav-toggle.mobile-nav-toggle {
   left: -9%;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
   button.toggle.nav-toggle.mobile-nav-toggle {
     position: relative;
     top: -111%;
     left: -18%;
   }
-}
+} */
 
 .svg-icon, #MenuColor {
   color: rgb(220, 220, 220);
@@ -161,12 +161,16 @@ button.toggle.nav-toggle.mobile-nav-toggle {
 
 #site-content {
   overflow: scroll;
-  border-top: 330px solid white;
+  border-top: 355px solid white;
 }
 
 @media screen and (max-width:900px) {
   #site-content{
-    border-top: 317px solid white;
+    border-top: 350px solid white;
+  }
+
+  div.header-titles-wrapper  {
+    top: 130px;
   }
 }
 
